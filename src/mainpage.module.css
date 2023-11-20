@@ -1,0 +1,12 @@
+/* büyük projelerde aynı classname isimli durumlar oluşmasın diye kullanılır,
+ bu sayede o classname'e karmaşık bir isim atanır. her bir dosya için farklı bir module.css dosyası açılır */
+
+
+.card{
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.card:hover{
+    transform: translate(5px, -5px);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.116);
+}
